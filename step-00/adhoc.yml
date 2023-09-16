@@ -1,0 +1,2 @@
+ansible states -a 'ping' -u yyyyy --key-file xxxxxxx -i host 
+ansible states -m file -a 'dest=/tmp/hello state=absent' -u ec2-user   -i inventory
