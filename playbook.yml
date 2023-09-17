@@ -1,5 +1,5 @@
 ---
-- hosts: animal
+- hosts: organism
   become: true
   become_method: sudo
   tasks:
